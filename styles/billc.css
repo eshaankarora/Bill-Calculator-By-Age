@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+button{
+    background-color: rgb(0, 198, 248);
+    border: none;
+    border-radius: 8px;
+    color: white;
+} 
+button:hover{
+    cursor:pointer;
+    background-color: rgb(1, 101, 214);
+}
+img{
+    width: 12px;
+    margin: auto;
+    filter: invert(100%);
+    margin-top: 3px;
+}
+#result{
+    display: none;
+}
+#age{
+    width: 25px;
+}
+#calculate{
+    scale: 120%;
+    margin-left: 10px;
+}

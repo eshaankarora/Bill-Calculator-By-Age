@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bill Calculator</title>
+        <!-- <meta name="viewport" content=""> -->
+        <link rel="stylesheet" href="styles/billc.css">
+    </head>
+    <body>
+        <table>
+            <thead>
+                <th>S.No.</th>
+                <th>Name of the Person</th>
+                <th>Age</th>
+            </thead>
+            <tbody>
+                <tr><td id="sno">1.</td><td><input type="text" id="name"></td><td><input type="text" id="age"></td><td><button id="addbutton" onclick="addnewrow()" title="Add a Person"><img id="add" src="resources/plus_icon.png"></button></td></tr>
+            </tbody>
+        </table>
+        <br>
+        <div id="bill">
+            <label for="billtot">Bill Total:</label>
+            <input type="text" id="billtot"><br>
+            <label for="tip">Tip %:</label>
+            <input type="range" id="tip" min="0" max="100" value="0">
+            <input type="text" id="tipval" value="0">
+            <br><br>
+            <button id="calculate">Calculate</button>
+        </div>
+        <br>
+        <div id="result">
+            <label for="total">Total Due: </label>
+            <input type="text" id="total" readonly>
+            <br>
+            <div></div>
+        </div>
+        <script src="scripts/billc.js"></script>
+    </body>
+</html>
