@@ -9,7 +9,7 @@ button{
     color: white;
 } 
 button:hover{
-    cursor:pointer;
+    /* cursor:pointer; */
     background-color: rgb(1, 101, 214);
 }
 img{
